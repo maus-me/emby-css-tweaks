@@ -1,16 +1,15 @@
-/* @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/jf_font.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/fixes.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/base.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/header/header_transparent.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/accentlist.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/titlepage/title_simple-logo.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/glassy.css'); */
-/* @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/pan-animation.css');  */
-
 .pageTitleWithDefaultLogo {
 	width: 100%;
 	min-height: 1.5em;
 }
+
+/* Sidebar Hide Dropdown Icons */
+.emby-collapse-expandIcon {display:none;height:0px;width:0px;}
+
+/* Magnification effect on posters */
+.cardBox{transition:all 0.1s;}
+.cardBox:hover {transform:scale(1.025);transition:all 0.1s;}
+
 /*
 
 :root {--rounding: 12px;}
@@ -50,16 +49,6 @@ html {
   --card-background: rgba(0, 0, 0, 0.15) !important;
   --footer-blur-background: rgba(29, 29, 31, 0.66) !important;
 } */
-
-/* Sidebar */
-.emby-collapse-expandIcon {display:none;height:0px;width:0px;}
-
-/* ---------- POSTER */
-
-/* Magnification effect on the poster */
-.cardBox{transition:all 0.1s;}
-.cardBox:hover {transform:scale(1.025);transition:all 0.1s;}
-
 
 /* Don't remember, pretty sure this squares up "square" posters like music */
 /*
